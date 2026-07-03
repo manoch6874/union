@@ -1,28 +1,4 @@
-Ts, and DeFi. It’s based on [Consensus Verification] and has no dependencies on trusted third parties, oracles, multi-signatures, or MPC. It implements [IBC] for compatibility with [Cosmos] chains and connects to EVM chains like [Ethereum], [Berachain (beacon-kit)](https://github.com/berachain/beacon-kit), [Arbitrum], and more.
-
-The upgradability of contracts on other chains, connections, token configurations, and evolution of the protocol will all be controlled by decentralized governance, aligning the priorities of Union with its users, validators, and operators.
-
-## Components
-
-| Component                                             | Description                                          | Language(s)           |
-| ----------------------------------------------------- | ---------------------------------------------------- | --------------------- |
-| [`uniond`](./uniond)                                  | The Union node implementation, using [`CometBLS`]    | [Go]                  |
-| [`galoisd`](./galoisd)                                | The zero-knowledge prover implementation             | [Go] [Gnark]          |
-| [`voyager`](./voyager)                                | Modular hyper-performant cross-ecosystem relayer     | [Rust]                |
-| [`hubble`](./hubble)                                  | Multi-ecosystem, GMP-enabled chain indexer           | [Rust]                |
-| [`cosmwasm`](./cosmwasm)                              | [CosmWasm] smart contract stack                      | [Rust]                |
-| [`light-clients`](./cosmwasm/ibc-union/lightclient)   | [Light Clients] for various ecosystems               | [Rust]                |
-| [`unionvisor`](./unionvisor/README.md)                | Node supervisor intended for production usage        | [Rust]                |
-| [`drip`](./drip)                                      | Faucet for [Cosmos] chains: [app.union.build/faucet] | [Rust]                |
-| [`evm`](./evm)                                        | [EVM] smart contract stack                           | [Solidity]            |
-| [`app`](./app)                                        | [app.union.build]                                    | [TypeScript] [Svelte] |
-| [`site`](./site)                                      | [union.build]                                        | [TypeScript] [Astro]  |
-| [`TypeScript SDK`](./typescript-sdk)                  | TypeScript SDK for interacting with Union            | [TypeScript]          |
-
-## Quickstart
-
-Install [Nix] to _[reproducibly build](https://en.wikipedia.org/wiki/Reproducible_builds) any component_, and to enter a dev shell with _all dependencies_:
-
+انذدمتند
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
 ```
