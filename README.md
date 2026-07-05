@@ -1,30 +1,4 @@
-انذدمتند
-```sh
-curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
-```
-
-_(Note that some components can only be built on Linux. If you are using macOS, we recommend using [OrbStack] to easily set up a [NixOS] VM within two minutes. Most Union developers use macOS with [OrbStack], and there is no need to install Nix inside of the [NixOS] VM.)_
-
-You can now _reproducibly_ build any of Union's components from source:
-
-```sh
-nix build .#uniond -L
-nix build .#voyager -L
-nix build .#app -L
-
-# to see all packages, run:
-nix flake show
-```
-
-The result of whatever you build will be in `result/`
-
-You can now also enter our dev shell, which has all of the dependencies (`cargo`, `rustc`, `node`, `go`, etc.) you need to work on any component:
-_(Don't worry, this will not affect your system outside of this repo)_
-
-```sh
-nix develop
-```
-
+tset
 Run the following to format the entire repo and check your spelling before each PR:
 
 ```sh
