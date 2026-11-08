@@ -20,9 +20,4 @@ vbnv39416870522930?logo=discord
 [light clients]: https://a16zcrypto.com/posts/article/an-introduction-to-light-clients/
 [nix]: https://zero-to-nix.com/
 [nixos]: https://nixos.org
-[gnark]: https://github.com/ConsenSys/gnark
-[go]: https://go.dev/
-123.
-35654
-
-    
+[gnark]: https://github.com/ConsenSys/
